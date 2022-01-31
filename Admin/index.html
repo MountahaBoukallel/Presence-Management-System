@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-1.css">
+    <link rel="stylesheet" href="assets/css/Sidebar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Tamplate-SB-Admin-on-BSS.css">
+
+       <!--links for the table-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Start: Tamplate SB-Admin on BSS -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand bg-dark sb-topnav navigation">
+            <div class="container-fluid">   
+                <img class="image" src="C:\Users\USER\Desktop\GL 2022\DAAW\Mini projet\Admin\assets\img\logo_size.jpg" >
+                
+                
+<!--Search bar-->
+                <form class="d-none d-md-inline-block order-2 ms-auto mr-0 me-md-3 my-2 my-md-0">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder=" Search for ...">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+<!--Search bar Ends-->
+<!--Add a new user section-->
+                    <div class="col-sm-4 new-user">
+                        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
+                    </div>
+<!--Add a new user section-->
+                <ul class="navbar-nav d-flex order-3 ms-auto ml-md-0">
+                    <li class="nav-item d-flex d-sm-flex d-md-none justify-content-center align-items-center justify-content-sm-center" style="margin-right: 7px;">
+                        <div class="nav-item dropdown no-arrow">
+                            <a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#">
+                            <i class="fa fa-search" style="font-size: 25px;margin-right: 0px;"></i> 
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center">
+                        <div class="nav-item dropdown no-arrow">
+                            <a class="dropdown-toggle active" aria-expanded="false" data-bs-toggle="dropdown" href="#">&nbsp;
+                                <img class="rounded-circle avatar" src="assets/img/boy.jpg">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end text-start shadow">
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Language</a>
+                                <a class="dropdown-item" href="#">Report a problem</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Log Out</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <div id="sidenavAccordion" class="sb-sidenav accordion sb-sidenav-dark">
+                    <!-- Start: sidenav menu -->
+                    <div class="sb-sidenav-menu">
+                        <!-- Start: nav -->
+                        <div class="nav">
+                            <!-- Start: nav group -->
+                            <div>
+                                <!-- Start: Label -->
+                                <div class="sb-sidenav-menu-heading"></div>
+                                <!-- End: Label -->
+                            </div>
+                            <!-- End: nav group -->
+                        </div>
+                        <!-- End: nav -->
+<!--Sidebar -->
+<div id="sidebar-main" class="sidebar sidebar-default sidebar-separate">
+    <div class="sidebar-category sidebar-default">
+        <div class="category-title">
+            <span>Functionalities</span>
+        </div>
+        <div class="category-content">
+            <ul id="fruits-nav" class="nav flex-column">
+                <li class="nav-item">
+                    <a href="#other-fruits" class="nav-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="other-fruits">Manage Users Accounts</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Manage Students</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">View Teachers list</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"></i> View Students list</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--Sidebar -->
+</div>  
+
+<!-- Footer -->
+                    <div class="sb-sidenav-footer">
+                        <div class="small">
+                            <span>Logged as : Zakaria Lekhdara</span>
+                        </div>
+                    </div>
+<!--Footer -->
+                </div>
+            </div>
+            <div id="layoutSidenav_content">
+                <!-- Start: Conten here -->
+                <main>
+                    <div class="container-lg">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2 class="heading">Users Details</h2>
+                        </div>
+
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead id="names">
+                    <tr class="Collection">
+                        <th class="collection-item">Name</th>
+                        <th class="collection-item">Department</th>
+                        <th class="collection-item">Phone</th>
+                        <th class="collection-item">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="collection">
+                        <td class="collection-item">John Doe</td>
+                        <td class="collection-item">Administration</td>
+                        <td class="collection-item">(171) 555-2222</td>
+                        <td class="btns-position">
+                            <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons add">&#xE03B;</i></a>
+                            <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons edit">&#xE254;</i></a>
+                            <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons delete">&#xE872;</i></a>
+                        </td>
+                    </tr>
+                    <tr class="collection">
+                        <td class="collection-item">Peter Parker</td>
+                        <td class="collection-item">Customer Service</td>
+                        <td class="collection-item">(313) 555-5735</td>
+                        <td class="btns-position">
+                            <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons add">&#xE03B;</i></a>
+                            <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons edit">&#xE254;</i></a>
+                            <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons delete">&#xE872;</i></a>
+                        </td>
+                    </tr>
+                    <tr class="collection">
+                        <td class="collection-item">Fran Wilson</td>
+                        <td class="collection-item">Human Resources</td>
+                        <td class="collection-item">(503) 555-9931</td>
+                        <td class="btns-position">
+                            <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons add">&#xE03B;</i></a>
+                            <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons edit">&#xE254;</i></a>
+                            <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons delete">&#xE872;</i></a>
+                        </td>
+                    </tr>      
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>     
+                </main>
+                <!-- End: Conten here -->
+            </div>
+        </div>
+    </div>
+    <!-- End: Tamplate SB-Admin on BSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
